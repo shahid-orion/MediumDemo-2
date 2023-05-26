@@ -1,8 +1,8 @@
 // import {defineConfig} from 'sanity'
-import { defineConfig } from 'sanity/lib/exports'
-import { deskTool } from 'sanity/lib/exports/desk'
-import { visionTool } from '@sanity/vision/lib/dts/src'
-import { schemaTypes } from './sanityyoutube/schemas'
+import {defineConfig} from 'sanity/lib/exports'
+import {deskTool} from 'sanity/lib/exports/desk'
+import {visionTool} from '@sanity/vision/lib/dts/src'
+import {schemaTypes} from './schemas/index'
 
 export default defineConfig({
   name: 'default',
